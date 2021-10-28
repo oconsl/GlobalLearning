@@ -1,0 +1,5 @@
+#Ignorar todos los archivos de texto.
+*.txt
+
+#Ignorar todos los test.js.
+test.js
