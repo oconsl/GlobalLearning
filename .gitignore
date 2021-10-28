@@ -3,3 +3,11 @@
 
 #Ignorar todos los test.js.
 test.js
+
+#Ignorar carpetas ajenas a GL.
+WebSD
+React-test
+CodeWars
+Java
+PRUEBA
+.vscode
