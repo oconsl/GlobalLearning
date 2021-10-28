@@ -1,20 +1,20 @@
-function buscaDistinto(array){
-    let caso1,caso2,i = 0;
+function findUnique(array){
+    let case1,case2,i = 0;
     while(array[i]==array[i+1]){
         i++;
     }
-    caso1 = array.filter(item => item == array[i]);
-    caso2 = array.filter(item => item == array[i+1]);
+    case1 = array.filter(item => item == array[i]);
+    case2 = array.filter(item => item == array[i+1]);
 
-    return caso1.length > caso2.length ? array[i+1] : array[i];
+    return case1.length > case2.length ? array[i+1] : array[i];
 }
 
-function findUnique(array){
+function findUnique2(array){
     return array.find(item => array.indexOf(item) == array.lastIndexOf(item));
 }
 
 let array = [3,3,3,8,3,3,3,3,3,3,3];
 console.log(array);
-let distinto = buscaDistinto(array);
+let unique = findUnique(array);
 console.log(findUnique(array));
-console.log(`El valor distinto del array: [${array}] es el número: ${distinto} ! Te encontré!\n`);          
+console.log(`The unique value of the array: [${array}] is the number: ${unique} ! I find you!\n`);          
