@@ -1,10 +1,4 @@
 class Person{
-    firstName
-    country
-    continent
-    age
-    language
-
     constructor(firstName,country,continent,age,language){
         this.firstName = firstName;
         this.country = country;

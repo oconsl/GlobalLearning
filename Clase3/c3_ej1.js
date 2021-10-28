@@ -1,10 +1,4 @@
 class Hero{
-    name
-    position
-    health
-    damage
-    experience
-
     constructor(name = "Heroe"){
         this.name = name;
         this.position = "00";
