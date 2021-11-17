@@ -1,0 +1,50 @@
+body {
+    background: lightblue;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container > div {
+    position: absolute;
+    width: 33.33vw;
+    height: 50vh;
+}
+
+.room1 {
+    background: url(gif3.gif) center/100% no-repeat rgb(25, 25, 26);
+}
+
+.room2 {
+    right: 0;
+    left: 0;
+    margin: auto;
+    background: lightgray;
+}
+
+.room3 {
+    right: 0;
+    background: lightgoldenrodyellow;
+}
+
+.room4 {
+    bottom:0;
+    background: lightseagreen;
+}
+
+.room5 {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:auto;
+    background: lightslategray;
+}
+
+.room6 {
+    bottom: 0;
+    right: 0;
+    background: lightpink;
+}

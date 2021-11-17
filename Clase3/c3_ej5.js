@@ -8,10 +8,6 @@ class Person{
     }
 }
 
-let person1 = new Person("Sofia","Argentina","Americas",35,"Java");
-let person2 = new Person("Lukas","Croatia","Europe",35,"Python");
-let person3 = new Person("Madison","United States","Americas",32,"Ruby");
-
 function thereIs(list,lang){
     for(person of list){
         if(person.language == lang){
